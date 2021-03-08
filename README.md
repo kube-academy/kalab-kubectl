@@ -1,27 +1,36 @@
-LAB - Markdown Sample
-=====================
+This repository is an [Educates](https://docs.edukates.io/) workshop.
 
-Sample workshop content using Markdown formatting for pages.
+It is a port of the Katacoda scenario [Kubectl commands and cluster navigation](https://github.com/kube-academy/katacoda-scenarios/tree/master/kubectl).
 
-For more detailed information on how to create and deploy workshops, consult
-the documentation for eduk8s at:
+This scenario is published as part of the kube academy course ["Hands-On with Kubectl"](https://kube.academy/courses/hands-on-with-kubectl).
 
-* https://docs.eduk8s.io
+## Deployment Instructions
 
-If you already have the eduk8s operator installed and configured, to deploy
-and view this sample workshop, run:
+### Assumptions
 
-```
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/workshop.yaml
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/training-portal.yaml
-```
+- the eduk8s operator is installed and configured
 
-This will deploy a training portal hosting just this workshop. To get the
-URL for accessing the training portal run:
+### Instructions
 
-```
-kubectl get trainingportal/lab-markdown-sample
-```
+1. Clone this repo
+1. Navigate to its base directory
+1. Deploy the workshop:
+
+    ```bash
+    kubectl apply -f resources/workshop.yaml
+    ```
+
+1. Deploy a sample training portal:
+
+    ```bash
+    kubectl apply -f resources/training-portal.yaml
+    ```
+
+1. Get the URL for the training portal:
+
+    ```bash
+    kubectl get trainingportal
+    ```
 
 The training portal is configured to allow anonymous access. For your own
 workshop content you should consider removing anonymous access.
