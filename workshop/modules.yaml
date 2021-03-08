@@ -1,12 +1,34 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
-    workshop-summary:
-        name: Workshop Summary
-        exit_sign: Finish Workshop
+  intro:
+    name: Workshop Overview
+  step1:
+    name: "Step 1: Cluster Info"
+  step2:
+    name: "Step 2: kubectl setup"
+  step3:
+    name: Step 3
+  step4:
+    name: Step 4
+  step5:
+    name: Step 5
+  step6:
+    name: Step 6
+  step7:
+    name: Step 7
+  step8:
+    name: Step 8
+  step9:
+    name: Step 9
+  step10:
+    name: Step 10
+  step11:
+    name: "Step 11: Output Formats"
+  step12:
+    name: Step 12
+  step13:
+    name: Step 13
+  step14:
+    name: Additional Resources
+  finish:
+    name: Workshop Summary
+    exit_sign: Finish Workshop
