@@ -12,11 +12,13 @@ You will not only see the `kubectl` client version along with the Kubernetes ser
 To see only the Kubernetes `kubectl` client version and not the Kubernetes version, try the following:
 
 ```terminal:execute
-command: kubectl version
+command: kubectl version --client=true
 ```
 
 You might need to gather information about the endpoints of the master and services in the cluster. This information will come in handy if you have to troubleshoot your cluster.
 
-```terminal:execute
-command: kubectl cluster-info
+```workshop:copy
+text: kubectl cluster-info
 ```
+
+**Warning**: In this particular environment, security policy forbids viewing cluster information.

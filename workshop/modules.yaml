@@ -1,6 +1,7 @@
 modules:
   intro:
     name: Workshop Overview
+    exit_sign: Begin
   step1:
     name: "Step 1: Cluster Info"
   step2:
