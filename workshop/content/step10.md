@@ -1,4 +1,5 @@
-Remember we wanted to list the Pods in the previous steps, but there were not any deployed in the `default` Namespace? We now have Pods in the `default` Namespace from when we created that Deployment resource.
+Remember we wanted to list the Pods in the previous steps, but there were not any deployed in the current namespace?
+We now have Pods in the current namespace from when we created that Deployment resource.
 
 ```terminal:execute
 command: kubectl get pods

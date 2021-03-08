@@ -14,13 +14,13 @@ This will show you details about a Deployment resource type.
     command: kubectl api-resources
     ```
 
-- View all the resources deployed to the cluster in the Default Namespace:
+- View all the resources deployed to the cluster in the current namespace:
 
     ```terminal:execute
     command: kubectl get all
     ```
 
-- View all the resources deployed to the cluster in all of the Namespaces:
+- View all the resources deployed to the cluster in all of the namespaces:
 
     ```terminal:execute
     command: kubectl get all --all-namespaces
