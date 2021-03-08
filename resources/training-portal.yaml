@@ -1,13 +1,14 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: kalab-kubectl
 spec:
   portal:
     registration:
       type: anonymous
   workshops:
-  - name: lab-markdown-sample
-    capacity: 1
-    expires: 60m
+  - name: kalab-kubectl
+    capacity: 3
+    reserved: 0
+    expires: 30m
     orphaned: 5m
