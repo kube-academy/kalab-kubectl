@@ -1,24 +1,24 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: kalab-kubectl
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
+  title: Kubectl commands and cluster navigation
+  description: Introduction to basic kubectl commands and learning how to navigate a kubernetes cluster
   vendor: eduk8s.io
   difficulty: beginner
-  duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  duration: 30m
+  url: https://github.com/kube-academy/kalab-kubectl
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    files: github.com/kube-academy/kalab-kubectl
   session:
     namespaces:
       budget: small
     applications:
       terminal:
         enabled: true
-        layout: split
+        layout: default
       console:
         enabled: true
       editor:
