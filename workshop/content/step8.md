@@ -1,8 +1,10 @@
 Check to see if the Deployment is in the `Ready` condition.
 
-`kubectl get deployment`{{execute}}
+```terminal:execute
+command: kubectl get deployment
+```
 
 Notice the Deployment was automatically deployed to the Default Namespace.
 
 **Pro Tip**:
-`kubectl get deploy`{{execute}} is a shortened version of the command above.
+`kubectl get deploy` is a shortened version of the command above.

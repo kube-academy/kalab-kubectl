@@ -2,9 +2,16 @@ Let’s setup the terminal's command autocompletion to help you ease through the
 
 Setup `kubectl` command completion:
 
-`kubectl completion -h`{{execute}} This shows us the help options.
+```terminal:execute
+command: kubectl completion -h
+```
+
+This shows us the help options.
 
 This terminal setup is using the bash shell, so we will use the following command:
-`source <(kubectl completion bash)`{{execute}}
+
+```terminal:execute
+command: source <(kubectl completion bash)
+```
 
 Test the command autocompletion setup by typing `kubectl get` and press the `tab` key three times to see all the kubernetes components you can `get`.

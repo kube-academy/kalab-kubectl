@@ -1,8 +1,10 @@
 We will now take a deeper look at the Kubernetes resources.
 
-`kubectl get namespace`{{execute}}
+```terminal:execute
+command: kubectl get namespace
+```
 
 You will see the various Namespaces that are critical to Kubernetes operations.
 
 **Pro Tip**:
-`kubectl get ns`{{execute}} is a shortened version of the command above.
+`kubectl get ns` is a shortened version of the command above.

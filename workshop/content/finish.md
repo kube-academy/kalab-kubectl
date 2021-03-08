@@ -1,1 +1,1 @@
-Great job finishing the scenario!
+Great job finishing the workshop!
