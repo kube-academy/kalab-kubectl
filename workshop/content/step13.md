@@ -17,7 +17,7 @@ This will show you details about a Deployment resource type.
 - View all the resources deployed to the cluster in the current namespace:
 
     ```workshop:copy
-    command: kubectl get all
+    text: kubectl get all
     ```
 
     **Warning**: The `get all` command includes object types (namely service accounts) that, in this particular environment, security policy forbids viewing.
@@ -31,7 +31,7 @@ This will show you details about a Deployment resource type.
 - View all the resources deployed to the cluster in all of the namespaces:
 
     ```workshop:copy
-    command: kubectl get all --all-namespaces
+    text: kubectl get all --all-namespaces
     ```
 
     **Warning**: Here too, your access in this session does not go beyond your session namespace {{ session_namespace }}.

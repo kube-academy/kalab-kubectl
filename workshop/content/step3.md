@@ -1,7 +1,7 @@
 Let’s check the status of the Nodes. Wait for the Nodes to be in the `Ready` condition.
 
 ```workshop:copy
-command: kubectl get nodes
+text: kubectl get nodes
 ```
 
 **Pro Tip**: `kubectl get no` is a shortened version of the command above.
