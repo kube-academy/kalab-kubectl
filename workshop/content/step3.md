@@ -1,6 +1,6 @@
 Let’s check the status of the Nodes. Wait for the Nodes to be in the `Ready` condition.
 
-```terminal:execute
+```workshop:copy
 command: kubectl get nodes
 ```
 

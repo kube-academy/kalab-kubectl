@@ -16,7 +16,7 @@ This will show you details about a Deployment resource type.
 
 - View all the resources deployed to the cluster in the current namespace:
 
-    ```terminal:execute
+    ```workshop:copy
     command: kubectl get all
     ```
 
@@ -30,7 +30,7 @@ This will show you details about a Deployment resource type.
 
 - View all the resources deployed to the cluster in all of the namespaces:
 
-    ```terminal:execute
+    ```workshop:copy
     command: kubectl get all --all-namespaces
     ```
 
